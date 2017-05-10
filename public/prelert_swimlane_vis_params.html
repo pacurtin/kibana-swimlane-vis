@@ -8,7 +8,7 @@
       ng-model="vis.params.lowThreshold" ng-model-options="{ updateOn: 'blur' }"
       less-than="{{vis.params.warningThreshold}}"
       ng-required="true">
-    <kbn-info info="Defines lower threshold for values between {{vis.params.lowThreshold}} and {{vis.params.warningThreshold}}."></kbn-info>  
+    <kbn-info info="Defines lower threshold for values between {{vis.params.lowThreshold}} and {{vis.params.warningThreshold}}"></kbn-info>  
     <input colorpicker ng-model="vis.params.lowThresholdColor" type="text" class="form-control color-picker-field">
     <kbn-info info="Define color for band in hexadecimal format. Click field for colorpicker."></kbn-info>
   </div>
